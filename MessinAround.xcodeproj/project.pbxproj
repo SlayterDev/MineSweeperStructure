@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4148A2E91CAB06B800E9A845 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4148A2E81CAB06B800E9A845 /* main.swift */; };
+		4148A2F01CAD702000E9A845 /* GameplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4148A2EF1CAD702000E9A845 /* GameplayKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		4148A2E51CAB06B800E9A845 /* MessinAround */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MessinAround; sourceTree = BUILT_PRODUCTS_DIR; };
 		4148A2E81CAB06B800E9A845 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		4148A2EF1CAD702000E9A845 /* GameplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameplayKit.framework; path = System/Library/Frameworks/GameplayKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4148A2F01CAD702000E9A845 /* GameplayKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +44,7 @@
 		4148A2DC1CAB06B800E9A845 = {
 			isa = PBXGroup;
 			children = (
+				4148A2EF1CAD702000E9A845 /* GameplayKit.framework */,
 				4148A2E71CAB06B800E9A845 /* MessinAround */,
 				4148A2E61CAB06B800E9A845 /* Products */,
 			);
@@ -239,6 +243,7 @@
 				4148A2EE1CAB06B800E9A845 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
